@@ -724,8 +724,8 @@ namespace CrocoKit {
             } else if (c & touch.CH) {
                 music.ringTone(262);
             } else if (c == touch.None) {
-                //music.ringTone(0);
-                pins.digitalWritePin(DigitalPin.P0, 0);
+                music.ringTone(0);
+                //pins.digitalWritePin(DigitalPin.P0, 0);
             }
         }
         else if (value == 2) {
@@ -748,8 +748,8 @@ namespace CrocoKit {
             } else if (c & touch.CH) {
                 music.ringTone(523);
             } else if (c == touch.None) {
-                //music.ringTone(0);
-                pins.digitalWritePin(DigitalPin.P0, 0);
+                music.ringTone(0);
+                //pins.digitalWritePin(DigitalPin.P0, 0);
             }
         }
         else if (value == 3) {
@@ -772,8 +772,8 @@ namespace CrocoKit {
             } else if (c & touch.CH) {
                 music.ringTone(1046);
             } else if (c == touch.None) {
-                //music.ringTone(0);
-                pins.digitalWritePin(DigitalPin.P0, 0);
+                music.ringTone(0);
+                //pins.digitalWritePin(DigitalPin.P0, 0);
             }
         }
     }
